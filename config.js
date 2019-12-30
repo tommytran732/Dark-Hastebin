@@ -32,11 +32,11 @@
     }
   },
 
-  "storage": {
-    "type": "memcached",
+    "storage": {
+    "type": "redis",
     "host": "127.0.0.1",
-    "port": 11211,
-    "expire": 2592000
+    "port": 6379,
+    "db": 2
   },
 
   "documents": {
